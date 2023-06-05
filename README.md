@@ -73,7 +73,7 @@ Now i tested the port using https://portchecker.co/checking. If it is not showin
 sudo netfilter-persistent save
 ```
 
-Now you should be able to navigate to publicIP:8000 in any web browser and access your WebODM web app. If not it is likely the egress rules in oracle or you messed soemthing in the vm up bad. Either way it is a quick process and can be started from the beginning easily. The more times you do it the better you get at it :).
+Now you should be able to navigate to publicIP:8000 in any web browser and access your WebODM web app. If not it is likely the egress rules in oracle or you messed something in the vm up bad. Either way it is a quick process and can be started from the beginning easily. The more times you do it the better you get at it :).
 
 Links:
 https://stackoverflow.com/questions/62326988/cant-access-oracle-cloud-always-free-compute-http-port
