@@ -17,8 +17,6 @@ Once we are connected via ssh we can install WebODM. My process mostly comes fro
 sudo apt update
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
-sudo apt install -y git python2 python-pip
-sudo apt install pip
 ```
 
 Now we are ready to install WebODM.
@@ -27,7 +25,7 @@ Check if docker composed is installed (it was not). It will give an error after 
 
 ```
 docker-compose --version
-sudo pip install docker-compose
+sudo apt install docker-compose
 ```
 
 Now we can clone, and do the install/first run:
